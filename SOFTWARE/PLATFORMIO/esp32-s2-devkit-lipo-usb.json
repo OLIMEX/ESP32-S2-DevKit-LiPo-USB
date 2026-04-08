@@ -1,0 +1,13 @@
+{
+  "env": {
+    "esp32-s2-devkit-lipo-usb": {
+      "platform": "espressif32",
+      "board": "esp32-s2-saola-1",
+      "framework": "arduino"
+    }
+  },
+  "monitor": {
+    "speed": 115200,
+    "filters": ["esp32_exception_decoder"]
+  }
+}
